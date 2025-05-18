@@ -4,6 +4,8 @@
   gap: 15px;
   padding: 20px;
   justify-content: center;
+  position: relative;
+  top: 330px;
 }
 
 .card {
@@ -14,14 +16,14 @@
   overflow: hidden;
   margin-bottom: 20px;
   text-align: center;
-   background: linear-gradient(to bottom, transparent 20%, #B6B09F 80%);
+   background: linear-gradient(to bottom, transparent 20%, #c7c9cc 80%);
    transition: 1s;
 }
 .card:hover{
-    scale: 1.1;
+    scale: 1.02;
+    background: linear-gradient(to bottom, transparent 20%, #e4aae7 80%);
 }
 .profile-image {
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -110,7 +112,7 @@ button:hover {
 }
 
 .close-btn:hover {
-  color: #ff0000;
+  color: #000000;
 }
 
 .map-container {
@@ -125,7 +127,7 @@ button:hover {
 .vm {
   align-self: center;
   margin-top: auto;
-  background-color: #5d5b5b;
+  background-color: #49108B;
   color: #333;
   border: none;
   border-radius: 5px;
@@ -136,7 +138,7 @@ button:hover {
 }
 
 .vm:hover {
-  background-color: #333;
+  background-color: #350b66;
   color: #f2f2f2;
 }
 
@@ -187,14 +189,13 @@ button:hover {
 }
 
 .close-btn:hover {
-  color: #007bff;
+  color: #000000;
 }
 
 .profile-image {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
 }
 
 .profile-image img {
@@ -202,7 +203,7 @@ button:hover {
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
-  border: 2px solid #b6b09f;
+  border: 1px solid #000000;
 }
 
 .profile-info {
@@ -227,4 +228,45 @@ button:hover {
   margin-top: 15px;
   border-radius: 10px;
   overflow: hidden;
+}
+
+.home-intro::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  background-image: url(/public/assets/img/slider-bg-1.png);
+  background-size: cover;
+    width: 100%;
+    z-index: -2;
+}
+
+.home-head{
+  width: 50%;
+  position: relative;
+  top: 200px;
+  left: 50px;
+}
+.home-head p{
+  font-size: smaller;
+  color: gray;
+}
+.head-img{
+  position: absolute;
+  height: 500px;
+  right: 200px;
+}
+
+.profile-heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 320px;
+}
+
+.profile-heading h3 {
+  color: gray;
 }

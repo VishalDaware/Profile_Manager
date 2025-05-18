@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #000000;
+  background-color: #7E30E1;
   padding: 5px 20px;
   color: #fff;
 }
@@ -41,11 +41,14 @@
 
 .search-input {
   padding: 5px;
+  height: 30px;
   width: 450px;
   border: none;
   border-radius: 15px;
   background-color: #fff;
   color: #555353;
+  position: relative;
+  top: 7px;
 }
 
 .search-input::placeholder {
@@ -54,7 +57,7 @@
 
 .search-btn {
   padding: 5px 10px;
-  background-color: #5d5b5b;
+  background-color: #E26EE5;
   color: #000;
   border: none;
   cursor: pointer;
@@ -62,10 +65,12 @@
   border-radius: 5px;
   width: 100px;
   transition: 1s;
+  position: relative;
+  top: -5px;
 }
 
 .search-btn:hover {
-  background-color: #000000;
-  color: #F2F2F2;
+  background-color: #af4cb3;
+  color: #000000;
   border: solid 1px #F2F2F2;
 }

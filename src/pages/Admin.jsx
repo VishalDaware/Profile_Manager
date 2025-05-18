@@ -59,7 +59,7 @@ const Admin = ({ cards, setCards }) => {
 
   return (
     <div className="admin-container">
-      <h2>Admin Panel - Manage Cards</h2>
+      <h2>Admin Panel - Manage Profile's</h2>
 
       <div className="add-card-form">
         <input

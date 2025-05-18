@@ -15,6 +15,19 @@ const Home = ({ cards }) => {
 
   return (
     <>
+    <div className="home-intro">
+      <img src={`${process.env.PUBLIC_URL}/assets/img/slider-m-1.png`} alt="img" className="head-img" />
+      <div className="home-head">
+      <h1>Explore Professionals</h1>
+      <br />
+      <h5>All Professionals are here..!</h5>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt voluptas ad dolores perferendis repudiandae voluptatem unde, illo ipsum. Consequuntur aliquam expedita cumque officiis aspernatur nisi explicabo aut iure velit odio!</p>
+      <br />
+      </div>
+    </div>
+    <div className="profile-heading">
+       <h3>Explore Professional's Profile</h3>
+    </div>
       <div className="home-container">
         {cards.length > 0 ? (
           cards.map((card) => (

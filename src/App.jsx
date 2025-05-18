@@ -10,8 +10,8 @@ const App = () => {
   const [cards, setCards] = useState([
     {
       id: 1,
-      name: "David Dell",
-      description: "Sample description for David.",
+      name: "Vishal Daware",
+      description: "Passionate IT Engineering student with strong skills in Front-End Web Development, including HTML, CSS, JavaScript, React JS, and Bootstrap. Proficient in building responsive, user-friendly interfaces with a keen eye for UI/UX design.",
       imgSrc: `${process.env.PUBLIC_URL}/assets/img/profile.jpg`,
       location: { lat: 37.7749, lng: -122.4194 }
     }
